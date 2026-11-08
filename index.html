@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+</head>
+<body>
+<title>Fatima Asiri</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Fatima Asiri, Associate Solutions Consultant at Plat4mation. ServiceNow solution consulting and presales; BSc IT, information security, first-class honours.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&family=Alexandria:wght@300;500;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: a single deep-space surface. A living particle field forms her initials, then the page reads as a rising trajectory: focus, two roles with the promotion between them, work, credentials, signal out. */
+:root{
+  --void:#04060b; --deep:#0a0f18; --glass:rgba(160,200,230,.055); --line:rgba(170,210,235,.13); --line2:rgba(170,210,235,.07);
+  --ink:#eef4f8; --ink2:#a9b7c4; --ink3:#6b7a89;
+  --ice:#a8e6ff; --mint:#9ff2d4; --flare:#ff8a5c;
+  --grad:linear-gradient(100deg,#9ff2d4 0%,#a8e6ff 45%,#d9e9ff 70%,#ffd1bd 100%);
+  --wide:"Archivo","Alexandria",system-ui,sans-serif;
+  --sans:"Geist","IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Geist Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--void)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--void);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+html[lang="ar"] body{font-family:"IBM Plex Sans Arabic",var(--sans)}
+html[lang="ar"] .en,html[lang="en"] .ar{display:none!important}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ice);outline-offset:3px;border-radius:4px}
+.mono{font-family:var(--mono)}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+h1,h2,h3{margin:0;text-wrap:balance}
+.disp{font-family:var(--wide);font-stretch:125%;font-weight:800;letter-spacing:-.035em;line-height:.9}
+html[lang="ar"] .disp{font-family:"Alexandria",sans-serif;font-stretch:normal;letter-spacing:0;line-height:1.15}
+.grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{font:500 11.5px var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--ink3);display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--ink3)}
+html[lang="ar"] .eyebrow{letter-spacing:.04em;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:13px}
+
+/* progress + nav */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--void)}
+.progline{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:2px;width:0;background:var(--grad);z-index:61}
+.nav{position:fixed;top:calc(env(safe-area-inset-top,0px) + 14px);left:0;right:0;z-index:50;pointer-events:none}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center}
+.pill{pointer-events:auto;display:flex;align-items:center;gap:4px;padding:6px;border-radius:999px;background:rgba(10,15,24,.62);border:1px solid var(--line);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%)}
+.logo{display:flex;align-items:center;gap:10px;padding:4px 14px 4px 6px;text-decoration:none;font-weight:500;font-size:14px}
+html[lang="ar"] .logo{padding:4px 6px 4px 14px}
+.logo i{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font:600 11px var(--mono);font-style:normal;color:var(--void);background:var(--grad)}
+.pill a.l{color:var(--ink2);text-decoration:none;font-size:13.5px;padding:7px 13px;border-radius:999px;transition:background .2s,color .2s}
+.pill a.l:hover{color:var(--ink);background:var(--glass)}
+.lang{border:0;background:var(--ink);color:var(--void);border-radius:999px;padding:8px 15px;font:600 13px var(--sans);cursor:pointer}
+html[lang="en"] .lang{font-family:"IBM Plex Sans Arabic",sans-serif}
+
+/* hero */
+.hero{position:relative;min-height:min(100vh,980px);display:flex;align-items:flex-end;padding-block:120px 64px;overflow:hidden;isolation:isolate}
+#field{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.hero::after{content:"";position:absolute;inset:auto 0 0;height:40%;background:linear-gradient(transparent,var(--void));z-index:-1;pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:40px;align-items:end;width:100%}
+.status{display:inline-flex;align-items:center;gap:10px;padding:7px 14px 7px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(10,15,24,.5);font:500 12.5px var(--mono);color:var(--ink2);backdrop-filter:blur(8px)}
+html[lang="ar"] .status{font-family:"IBM Plex Sans Arabic",sans-serif;padding:7px 10px 7px 14px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 0 rgba(159,242,212,.6);animation:ping 2.2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(159,242,212,.55)}70%{box-shadow:0 0 0 10px rgba(159,242,212,0)}100%{box-shadow:0 0 0 0 rgba(159,242,212,0)}}
+.hero h1{font-size:clamp(58px,10.5vw,168px);margin:26px 0 22px}
+.hero h1 span.l2{display:block}
+.title-line{font-family:var(--wide);font-stretch:110%;font-weight:500;font-size:clamp(18px,1.9vw,24px);letter-spacing:-.005em;color:var(--ink)}
+html[lang="ar"] .title-line{font-family:"Alexandria",sans-serif}
+.title-line b{font-weight:500;color:var(--ink3)}
+.hero p.lede{color:var(--ink2);max-width:52ch;font-size:17px;margin:16px 0 0}
+.hero-side{display:flex;flex-direction:column;gap:12px;align-self:end}
+.chip{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,rgba(168,230,255,.06),rgba(168,230,255,.015));backdrop-filter:blur(10px)}
+.chip .ic{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;font:600 11px var(--mono);color:var(--ice)}
+.chip small{display:block;font:500 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+html[lang="ar"] .chip small{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12px}
+.chip b{font-weight:500;font-size:15px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font:500 15px var(--sans);text-decoration:none;border:1px solid var(--line);color:var(--ink);background:rgba(10,15,24,.5);transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .2s}
+html[lang="ar"] .btn{font-family:"IBM Plex Sans Arabic",sans-serif}
+.btn:hover{border-color:rgba(168,230,255,.4)}
+.btn.main{background:var(--ink);color:var(--void);border-color:var(--ink)}
+.btn .ar-r{transition:transform .25s}
+.btn:hover .ar-r{transform:translateX(3px)}
+html[lang="ar"] .btn .ar-r{transform:scaleX(-1)}
+.scrollcue{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);font:500 10.5px var(--mono);letter-spacing:.3em;color:var(--ink3);text-transform:uppercase}
+
+/* manifesto */
+.manifesto{padding-block:120px 80px}
+.manifesto p{font-family:var(--wide);font-stretch:100%;font-weight:400;font-size:clamp(28px,3.9vw,56px);line-height:1.12;letter-spacing:-.02em;margin:26px 0 0;max-width:22ch}
+html[lang="ar"] .manifesto p{font-family:"Alexandria",sans-serif;font-weight:300;letter-spacing:0;line-height:1.45;max-width:24ch}
+.manifesto .w{color:var(--ink3);transition:color .6s}
+.manifesto .w.on{color:var(--ink)}
+.manifesto em{font-style:normal}
+
+/* numbers */
+.numbers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.numbers div{padding:30px 24px 30px 0;border-inline-end:1px solid var(--line);padding-inline:24px}
+.numbers div:nth-child(4n+1){padding-inline-start:0}.numbers div:nth-child(n+5){border-top:1px solid var(--line)}
+.numbers div:nth-child(4n){border-inline-end:0}
+.numbers b{display:block;font-family:var(--wide);font-stretch:125%;font-weight:700;font-size:clamp(44px,5vw,72px);line-height:1;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.numbers span{display:block;color:var(--ink2);font-size:14px;margin-top:10px;max-width:22ch}
+
+/* section scaffolding */
+section.s{padding-block:130px 40px;scroll-margin-top:60px}
+.sh{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:end;margin-bottom:56px}
+.sh h2{font-size:clamp(44px,6.2vw,92px);margin-top:18px}
+.sh p{color:var(--ink2);max-width:46ch;margin:0;justify-self:end;font-size:16.5px}
+html[lang="ar"] .sh p{justify-self:start}
+
+/* focus */
+.focus{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.fcard{position:relative;border:1px solid var(--line);border-radius:22px;padding:30px 28px 28px;background:linear-gradient(180deg,rgba(168,230,255,.05),rgba(168,230,255,0) 60%);overflow:hidden;min-width:0}
+.fcard::before{content:"";position:absolute;inset:-1px;border-radius:22px;padding:1px;background:radial-gradient(400px circle at var(--mx,50%) var(--my,0%),rgba(168,230,255,.45),transparent 40%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;opacity:.9}
+.fcard .k{font:500 11px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--ice)}
+.fcard h3{font-family:var(--wide);font-stretch:112%;font-weight:600;font-size:26px;letter-spacing:-.02em;line-height:1.1;margin:18px 0 12px}
+html[lang="ar"] .fcard h3{font-family:"Alexandria",sans-serif;letter-spacing:0;line-height:1.35}
+.fcard p{color:var(--ink2);font-size:15px;margin:0 0 20px}
+.fcard ul{list-style:none;margin:0;padding:0}
+.fcard li{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid var(--line2);font-size:14px;color:var(--ink)}
+.fcard li>span:last-child{color:var(--ink3);font:500 11.5px var(--mono)}
+
+/* trajectory */
+.traj{position:relative}
+.rail{position:absolute;inset-inline-start:150px;top:0;bottom:0;width:1px;background:linear-gradient(var(--line),var(--line) 50%,transparent)}
+.role{position:relative;display:grid;grid-template-columns:150px minmax(0,1fr);gap:0;padding-bottom:30px}
+.role .when{padding-top:34px;font:500 12px var(--mono);color:var(--ink3);line-height:1.7;padding-inline-end:24px}
+.node{position:absolute;inset-inline-start:150px;top:40px;width:15px;height:15px;border-radius:50%;transform:translateX(-50%);background:var(--void);border:2px solid var(--ice)}
+html[lang="ar"] .node{transform:translateX(50%)}
+.role.now .node{background:var(--ice);box-shadow:0 0 0 6px rgba(168,230,255,.12),0 0 30px rgba(168,230,255,.6)}
+.rbody{padding-inline-start:44px;min-width:0}
+.rcard{border:1px solid var(--line);border-radius:24px;padding:32px;background:rgba(10,15,24,.6);min-width:0}
+.role.now .rcard{background:linear-gradient(160deg,rgba(159,242,212,.08),rgba(168,230,255,.03) 40%,rgba(10,15,24,.6))}
+.rtop{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.rtag{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;padding:6px 11px;border-radius:999px;border:1px solid var(--line);color:var(--ink2)}
+.role.now .rtag{color:var(--void);background:var(--mint);border-color:var(--mint)}
+html[lang="ar"] .rtag{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12.5px}
+.rcard h3{font-family:var(--wide);font-stretch:118%;font-weight:700;font-size:clamp(28px,3.2vw,44px);letter-spacing:-.03em;line-height:1.02}
+.rcard .org{color:var(--ice);font-weight:500;margin-top:8px}
+.rcard>p{color:var(--ink2);max-width:66ch;margin:18px 0 0;font-size:16.5px}
+.rgrid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;margin-top:30px}
+.rgrid h4{margin:0 0 12px;font:500 11px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
+html[lang="ar"] .rgrid h4{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:13px}
+.del{list-style:none;margin:0;padding:0;counter-reset:d}
+.del li{position:relative;padding:14px 0 14px 34px;border-top:1px solid var(--line2);font-size:15px;color:var(--ink2)}
+html[lang="ar"] .del li{padding:14px 34px 14px 0}
+.del li::before{counter-increment:d;content:counter(d,decimal-leading-zero);position:absolute;inset-inline-start:0;top:16px;font:500 11px var(--mono);color:var(--ice)}
+.del li b{color:var(--ink);font-weight:500;display:block;margin-bottom:2px}
+.gain{display:flex;flex-wrap:wrap;gap:8px}
+.gain span{font-size:13px;padding:7px 12px;border-radius:10px;background:var(--glass);border:1px solid var(--line2);color:var(--ink)}
+.promo{position:relative;margin:6px 0 36px;display:grid;grid-template-columns:150px minmax(0,1fr)}
+.promo .pnode{position:absolute;inset-inline-start:150px;top:50%;width:40px;height:40px;transform:translate(-50%,-50%);border-radius:50%;display:grid;place-items:center;background:var(--flare);color:var(--void);font:700 16px var(--mono);box-shadow:0 0 0 8px rgba(255,138,92,.12),0 0 40px rgba(255,138,92,.5)}
+html[lang="ar"] .promo .pnode{transform:translate(50%,-50%)}
+.promo .pt{grid-column:2;padding-inline-start:44px}
+.promo .pt div{display:inline-flex;align-items:center;gap:14px;padding:14px 22px;border-radius:16px;border:1px dashed rgba(255,138,92,.5);background:rgba(255,138,92,.06)}
+.promo b{font-family:var(--wide);font-stretch:115%;font-weight:700;font-size:20px;color:var(--flare);letter-spacing:-.01em}
+html[lang="ar"] .promo b{font-family:"Alexandria",sans-serif}
+.promo small{color:var(--ink2);font-size:14px}
+
+/* projects */
+.projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pj{position:relative;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--deep);text-decoration:none;min-width:0;transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .3s}
+.pj:hover{transform:translateY(-6px);border-color:rgba(168,230,255,.35)}
+.pj .vis{height:200px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.pj .vis canvas{width:100%;height:100%;display:block}
+.pj .vis .glyph{position:absolute;inset:auto 22px 18px;font-family:var(--wide);font-stretch:125%;font-weight:800;font-size:44px;letter-spacing:-.04em;line-height:1}
+.pj .in{padding:24px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
+.pj .meta{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);display:flex;justify-content:space-between}
+html[lang="ar"] .pj .meta{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12px}
+.pj h3{font-family:var(--wide);font-stretch:112%;font-weight:600;font-size:24px;letter-spacing:-.02em}
+.pj p{margin:0;color:var(--ink2);font-size:14.5px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:12px}
+.tag{font:500 11px var(--mono);padding:4px 9px;border-radius:7px;border:1px solid var(--line);color:var(--ink2)}
+.pj .go{display:flex;gap:14px;padding:16px 24px;border-top:1px solid var(--line);font-size:13.5px;color:var(--ice)}
+.pj .go a{text-decoration:none;color:var(--ice)}
+.pj .go a:hover{text-decoration:underline}
+
+/* credentials */
+.intl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.badge{position:relative;border-radius:24px;padding:28px;border:1px solid var(--line);background:radial-gradient(120% 90% at 100% 0%,rgba(168,230,255,.12),transparent 55%),var(--deep);min-height:220px;display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.badge .issuer{font:500 11px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--ink3)}
+.badge h3{font-family:var(--wide);font-stretch:115%;font-weight:700;font-size:28px;letter-spacing:-.025em;line-height:1.05;margin-top:16px}
+.badge .code{position:absolute;inset-inline-end:-6px;bottom:-18px;font-family:var(--wide);font-stretch:125%;font-weight:800;font-size:110px;letter-spacing:-.05em;color:transparent;-webkit-text-stroke:1px rgba(168,230,255,.18);line-height:1;pointer-events:none}
+.badge .st{margin-top:auto;display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--mint)}
+.badge .st::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.badge.prog .st{color:var(--flare)}
+.acc{margin-top:16px;border:1px solid var(--line);border-radius:24px;padding:34px;background:var(--deep)}
+.acc-top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:30px;align-items:end;margin-bottom:28px}
+.acc-top h3{font-family:var(--wide);font-stretch:115%;font-weight:700;font-size:clamp(26px,2.8vw,38px);letter-spacing:-.025em;line-height:1.08}
+html[lang="ar"] .acc-top h3,html[lang="ar"] .badge h3,html[lang="ar"] .pj h3,html[lang="ar"] .rcard h3{font-family:"Alexandria",sans-serif;letter-spacing:0;line-height:1.35}
+.acc-top p{color:var(--ink2);margin:10px 0 0;max-width:60ch}
+.hrs{text-align:end}
+.hrs b{display:block;font-family:var(--wide);font-stretch:125%;font-weight:800;font-size:64px;line-height:1;letter-spacing:-.04em}
+.hrs span{font:500 11px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
+html[lang="ar"] .hrs span{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:13px}
+.flt{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.flt button{border:1px solid var(--line);background:transparent;color:var(--ink2);border-radius:999px;padding:7px 14px;font:500 13px var(--sans);cursor:pointer}
+html[lang="ar"] .flt button{font-family:"IBM Plex Sans Arabic",sans-serif}
+.flt button[aria-pressed="true"]{background:var(--ink);color:var(--void);border-color:var(--ink)}
+.courses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
+.course{display:grid;grid-template-columns:minmax(0,1fr) 120px 44px;gap:14px;align-items:center;padding:13px 0;border-top:1px solid var(--line2);font-size:14.5px}
+.course .bar{height:4px;border-radius:2px;background:var(--line2);overflow:hidden}
+.course .bar i{display:block;height:100%;background:var(--grad);border-radius:2px}
+.course em{font:500 12.5px var(--mono);font-style:normal;color:var(--ink2);text-align:end}
+.course.hl span:first-child{color:var(--ink);font-weight:500}
+.acc-foot{margin-top:18px;font-size:13px;color:var(--ink3)}
+.edu{margin-top:16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;border:1px solid var(--line);border-radius:24px;padding:28px 34px;background:linear-gradient(100deg,rgba(159,242,212,.07),transparent 60%),var(--deep)}
+.edu h3{font-family:var(--wide);font-stretch:112%;font-weight:600;font-size:24px;letter-spacing:-.02em}
+html[lang="ar"] .edu h3{font-family:"Alexandria",sans-serif}
+.edu p{margin:6px 0 0;color:var(--ink2)}
+.edu .y{font-family:var(--wide);font-stretch:125%;font-weight:800;font-size:48px;letter-spacing:-.04em}
+
+/* contact */
+.contact{padding-block:150px 60px;position:relative;overflow:hidden}
+.contact h2{font-size:clamp(52px,9vw,140px)}
+.contact .lead{color:var(--ink2);max-width:52ch;font-size:17px;margin:24px 0 46px}
+.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.lk{display:flex;flex-direction:column;gap:10px;border:1px solid var(--line);border-radius:22px;padding:24px;background:var(--deep);text-decoration:none;min-width:0;transition:border-color .25s,transform .3s}
+.lk:hover{border-color:rgba(168,230,255,.4);transform:translateY(-3px)}
+.lk small{font:500 11px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--ink3)}
+html[lang="ar"] .lk small{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12.5px}
+.lk b{font:500 16.5px var(--mono);word-break:break-all;color:var(--ink)}
+.lk .copy{align-self:flex-start;margin-top:4px;border:1px solid var(--line);background:none;color:var(--ink2);border-radius:999px;padding:5px 12px;font:500 12.5px var(--sans);cursor:pointer}
+footer{border-top:1px solid var(--line);padding-block:24px 34px;color:var(--ink3);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+
+/* reveal: visible at rest, lifts in when JS runs */
+.rv{transition:transform .9s cubic-bezier(.2,.8,.2,1),opacity .9s}
+.js .rv.pre{transform:translateY(26px);opacity:.001}
+
+@media (max-width:1040px){
+  .pill .l{display:none}
+  .hero-grid,.sh,.rgrid,.acc-top{grid-template-columns:1fr}
+  .sh p{justify-self:start}
+  .focus,.projects,.intl,.links{grid-template-columns:1fr 1fr}
+  .focus .fcard:last-child,.projects .pj:last-child{grid-column:1/-1}
+  .intl .badge:last-child{grid-column:1/-1}
+  .links .lk:last-child{grid-column:1/-1}
+  .hrs{text-align:start}
+}
+@media (max-width:720px){
+  .hero{min-height:0;padding-block:110px 56px}
+  .numbers{grid-template-columns:1fr 1fr}
+  .numbers div{padding:22px 16px;border-inline-end:1px solid var(--line)}
+  .numbers div:nth-child(2n){border-inline-end:0}
+  .numbers div:nth-child(2n+1){padding-inline-start:0}
+  .numbers div:nth-child(n+3){border-top:1px solid var(--line)}
+  .focus,.projects,.intl,.links,.courses{grid-template-columns:1fr}
+  section.s{padding-block:90px 20px}
+  .sh{margin-bottom:36px}
+  .rail{inset-inline-start:7px}
+  .role,.promo{grid-template-columns:1fr}
+  .role .when{padding:0 0 10px 34px}
+  html[lang="ar"] .role .when{padding:0 34px 10px 0}
+  .node{inset-inline-start:7px;top:4px}
+  .rbody{padding-inline-start:34px}
+  .rcard{padding:22px}
+  .promo .pnode{inset-inline-start:7px;width:30px;height:30px;font-size:13px}
+  .promo .pt{grid-column:1;padding-inline-start:34px}
+  .course{grid-template-columns:minmax(0,1fr) 70px 40px}
+  .acc,.edu{padding:22px}
+  .edu{grid-template-columns:1fr}
+  .scrollcue{display:none}
+}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:56px;align-items:start}
+.about-text p{color:var(--ink2);font-size:17px;max-width:62ch;margin:0 0 18px}
+.about-text p.big{font-family:var(--wide);font-stretch:105%;font-weight:400;font-size:clamp(24px,2.6vw,34px);line-height:1.25;letter-spacing:-.015em;color:var(--ink);margin-bottom:28px}
+html[lang="ar"] .about-text p.big{font-family:"Alexandria",sans-serif;font-weight:300;letter-spacing:0;line-height:1.6}
+.journey{list-style:none;margin:0;padding:0;border-inline-start:1px solid var(--line)}
+.journey li{position:relative;padding:0 0 26px 26px;display:flex;flex-direction:column;gap:2px}
+html[lang="ar"] .journey li{padding:0 26px 26px 0}
+.journey li::before{content:"";position:absolute;inset-inline-start:-5px;top:6px;width:9px;height:9px;border-radius:50%;background:var(--void);border:1.5px solid var(--ice)}
+.journey li.up::before{background:var(--flare);border-color:var(--flare);box-shadow:0 0 14px rgba(255,138,92,.6)}
+.journey .jy{font:500 11.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+html[lang="ar"] .journey .jy{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12.5px}
+.journey b{font-weight:500;font-size:16.5px}
+.journey span:last-child{color:var(--ink2);font-size:14px}
+/* pre-career mini cards */
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.mcard{border:1px solid var(--line);border-radius:20px;padding:22px;background:rgba(10,15,24,.6);min-width:0}
+.mcard small{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--ink3)}
+html[lang="ar"] .mcard small{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12.5px}
+.mcard h3{font-family:var(--wide);font-stretch:110%;font-weight:600;font-size:22px;letter-spacing:-.015em;margin:8px 0 6px}
+html[lang="ar"] .mcard h3{font-family:"Alexandria",sans-serif;letter-spacing:0}
+.mcard p{margin:0;color:var(--ink2);font-size:15px}
+/* credentials extras */
+.badge h3 .sm{display:block;font:500 13px var(--mono);letter-spacing:.06em;color:var(--ink3);margin-top:6px}
+.minor{margin-top:16px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:20px;background:var(--deep)}
+.minor div{padding:20px 22px;border-inline-end:1px solid var(--line);min-width:0}
+.minor div:last-child{border-inline-end:0}
+.minor small{display:block;font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-bottom:6px}
+html[lang="ar"] .minor small{letter-spacing:0;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:12.5px}
+.minor b{font-weight:500;font-size:15px}
+.minor .prog b{color:var(--flare)}
+/* quotes */
+.quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.q{margin:0;border:1px solid var(--line);border-radius:24px;padding:32px;background:linear-gradient(160deg,rgba(168,230,255,.06),transparent 50%),var(--deep);display:flex;flex-direction:column;gap:22px;min-width:0}
+.q blockquote{margin:0;font-family:var(--wide);font-stretch:100%;font-weight:400;font-size:clamp(21px,2vw,27px);line-height:1.3;letter-spacing:-.01em}
+html[lang="ar"] .q blockquote{font-family:"Alexandria",sans-serif;font-weight:300;letter-spacing:0;line-height:1.6}
+.q figcaption{margin-top:auto;display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line2);padding-top:16px}
+.q figcaption b{font-weight:500}
+.q figcaption span{color:var(--ink3);font-size:13.5px}
+.contact{padding-block:130px 60px}
+.contact h2{margin-bottom:40px}
+@media (max-width:1040px){.about{grid-template-columns:1fr;gap:36px}.minor{grid-template-columns:1fr 1fr}.minor div:nth-child(2){border-inline-end:0}.minor div:nth-child(n+3){border-top:1px solid var(--line)}}
+@media (max-width:720px){.mini,.quotes,.minor{grid-template-columns:1fr}.minor div{border-inline-end:0;border-top:1px solid var(--line)}.minor div:first-child{border-top:0}.q{padding:24px}.contact{padding-block:90px 40px}}
+</style>
+
+<div class="progline" id="prog"></div>
+<header class="nav">
+  <div class="wrap">
+    <div class="pill">
+      <a class="logo" href="#top"><i>FA</i><span class="en">Fatima Asiri</span><span class="ar">فاطمة عسيري</span></a>
+      <a class="l" href="#about"><span class="en">About</span><span class="ar">نبذة</span></a>
+      <a class="l" href="#experience"><span class="en">Experience</span><span class="ar">الخبرات</span></a>
+      <a class="l" href="#projects"><span class="en">Projects</span><span class="ar">المشاريع</span></a>
+      <a class="l" href="#credentials"><span class="en">Credentials</span><span class="ar">الشهادات</span></a>
+      <a class="l" href="#contact"><span class="en">Contact</span><span class="ar">التواصل</span></a>
+    </div>
+    <div class="pill"><button class="lang" id="lang" type="button"><span class="en">العربية</span><span class="ar">English</span></button></div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="status"><span class="dot"></span><span class="en">Associate Solutions Consultant · Plat4mation</span><span class="ar">مستشارة حلول · Plat4mation</span></span>
+      <h1 class="disp"><span class="en">Fatima<span class="l2 grad">Asiri</span></span><span class="ar">فاطمة<span class="l2 grad">عسيري</span></span></h1>
+      <div class="title-line"><span class="en">ServiceNow Solution Consulting <b>·</b> Presales</span><span class="ar">استشارات حلول ServiceNow <b>·</b> ما قبل البيع</span></div>
+      <p class="lede"><span class="en">Information Technology graduate with first-class honours, specialised in information security. I translate business requirements into ServiceNow solutions, from discovery and solution design to proofs of concept and technical proposals.</span><span class="ar">خريجة تقنية معلومات بمرتبة الشرف الأولى، بتخصص أمن المعلومات. أحوّل متطلبات الأعمال إلى حلول على ServiceNow، بدءاً من تحليل الاحتياج وتصميم الحل، وصولاً إلى نماذج إثبات المفهوم والعروض الفنية.</span></p>
+      <div class="cta">
+        <a class="btn main" href="#experience"><span class="en">View experience</span><span class="ar">الخبرات</span><span class="ar-r">→</span></a>
+        <a class="btn" href="#projects"><span class="en">Projects</span><span class="ar">المشاريع</span></a>
+      </div>
+    </div>
+    <div class="hero-side">
+      <div class="chip"><span class="ic">1st</span><div><small><span class="en">Academic</span><span class="ar">أكاديمياً</span></small><b><span class="en">GPA 4.78 / 5 · First-class honours</span><span class="ar">معدل 4.78 من 5 · مرتبة الشرف الأولى</span></b></div></div>
+      <div class="chip"><span class="ic">SN</span><div><small><span class="en">Platform</span><span class="ar">المنصة</span></small><b>ServiceNow Certified System Administrator</b></div></div>
+      <div class="chip"><span class="ic">S+</span><div><small><span class="en">Security</span><span class="ar">الأمن</span></small><b>CompTIA Security+ (SY0-701)</b></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="numbers">
+    <div><b data-n="4.78" data-d="2">4.78</b><span><span class="en">GPA out of 5 · first-class honours</span><span class="ar">المعدل من 5 · مرتبة الشرف الأولى</span></span></div>
+    <div><b data-n="2">2</b><span><span class="en">months from joining to promotion</span><span class="ar">شهران من الانضمام إلى الترقية</span></span></div>
+    <div><b data-n="4">4</b><span><span class="en">recommendation letters from university faculty</span><span class="ar">خطابات توصية من أساتذة الجامعة</span></span></div>
+    <div><b data-n="99">99</b><span><span class="en">percentile, IT Business Analyst assessment</span><span class="ar">المئين في تقييم محلل أعمال تقنية المعلومات</span></span></div>
+    <div><b data-n="280">280</b><span><span class="en">training hours at the Public Prosecution</span><span class="ar">ساعة تدريب في النيابة العامة</span></span></div>
+    <div><b data-n="149">149</b><span><span class="en">volunteer hours with the Ministry of Education</span><span class="ar">ساعة تطوع مع وزارة التعليم</span></span></div>
+    <div><b data-n="340">340</b><span><span class="en">hours of accredited professional training</span><span class="ar">ساعة تدريب مهني معتمد</span></span></div>
+    <div><b data-n="19">19</b><span><span class="en">professional certificates and courses</span><span class="ar">شهادة ودورة مهنية</span></span></div>
+  </div>
+</div>
+
+<section class="s wrap" id="about">
+  <div class="sh rv">
+    <div><div class="eyebrow"><span class="en">About</span><span class="ar">نبذة</span></div><h2 class="disp"><span class="en">Who I am</span><span class="ar">من أنا</span></h2></div>
+  </div>
+  <div class="about">
+    <div class="about-text rv">
+      <p class="big"><span class="en">I am a solutions consultant who joined the ServiceNow field straight from university and was promoted from technical delivery to solution consulting within two months.</span><span class="ar">مستشارة حلول دخلت مجال ServiceNow مباشرة بعد التخرج، وترقّيت من التنفيذ التقني إلى استشارات الحلول خلال شهرين.</span></p>
+      <p><span class="en">I graduated from Jazan University with a BSc in Information Technology, on the information security track, with first-class honours. Before joining the private sector I completed 280 hours of training at the Public Prosecution and contributed 149 volunteer hours to the Ministry of Education.</span><span class="ar">تخرجت من جامعة جازان ببكالوريوس تقنية المعلومات، مسار أمن المعلومات، بمرتبة الشرف الأولى. وقبل انضمامي للقطاع الخاص أكملت 280 ساعة تدريب في النيابة العامة، و149 ساعة تطوع مع وزارة التعليم.</span></p>
+      <p><span class="en">At Plat4mation I started on delivery, building dashboards, portals and documentation on client instances. Today I work on the solution side: understanding the client's process, designing it on ServiceNow, and turning it into a proof of concept and a technical proposal.</span><span class="ar">في Plat4mation بدأت في فريق التنفيذ، أبني لوحات المعلومات والبوابات والأدلة على بيئات العملاء. واليوم أعمل في جانب الحلول: أفهم إجراءات العميل، وأصمّمها على ServiceNow، وأحوّلها إلى نموذج إثبات مفهوم وعرض فني.</span></p>
+      <p><span class="en">Alongside my role, I keep developing in information security, the field I specialised in, through independent projects in fraud detection, governance and risk management.</span><span class="ar">وإلى جانب عملي، أواصل التطور في أمن المعلومات، مجال تخصصي، من خلال مشاريع مستقلة في كشف الاحتيال والحوكمة وإدارة المخاطر.</span></p>
+    </div>
+    <ol class="journey rv">
+      <li><span class="jy">2022 – 2026</span><b><span class="en">BSc Information Technology</span><span class="ar">بكالوريوس تقنية المعلومات</span></b><span><span class="en">Jazan University · Information security track · GPA 4.78 / 5, first-class honours</span><span class="ar">جامعة جازان · مسار أمن المعلومات · معدل 4.78 من 5، مرتبة الشرف الأولى</span></span></li>
+      <li><span class="jy">2025</span><b><span class="en">Public Prosecution</span><span class="ar">النيابة العامة</span></b><span><span class="en">IT Department · 280 training hours</span><span class="ar">إدارة تقنية المعلومات · 280 ساعة تدريب</span></span></li>
+      <li><span class="jy"><span class="en">Volunteering</span><span class="ar">تطوع</span></span><b><span class="en">Ministry of Education</span><span class="ar">وزارة التعليم</span></b><span><span class="en">149 hours across several programmes</span><span class="ar">149 ساعة في عدة مجالات</span></span></li>
+      <li><span class="jy">Aug 2026</span><b>Associate Technical Consultant</b><span>Plat4mation</span></li>
+      <li class="up"><span class="jy">Oct 2026</span><b>Associate Solutions Consultant</b><span><span class="en">Plat4mation · Promotion</span><span class="ar">Plat4mation · ترقية</span></span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="s wrap" id="experience">
+  <div class="sh rv">
+    <div><div class="eyebrow"><span class="en">Experience</span><span class="ar">الخبرات</span></div><h2 class="disp"><span class="en">Professional<br><span class="grad">experience</span></span><span class="ar">الخبرات<br><span class="grad">المهنية</span></span></h2></div>
+    <p><span class="en">Client names and identifying details are kept confidential.</span><span class="ar">أسماء العملاء وأي تفاصيل تدل عليهم سرية.</span></p>
+  </div>
+
+  <div class="traj">
+    <div class="rail" aria-hidden="true"></div>
+
+    <div class="role rv">
+      <div class="when">Jun 2025<br>— Aug 2025</div>
+      <span class="node" aria-hidden="true"></span>
+      <div class="rbody"><div class="rcard">
+        <div class="rtop"><div><h3><span class="en">IT Trainee</span><span class="ar">متدربة تقنية معلومات</span></h3><div class="org"><span class="en">Public Prosecution · IT Department, Jazan Region</span><span class="ar">النيابة العامة · إدارة تقنية المعلومات بمنطقة جازان</span></div></div><span class="rtag">280 <span class="en">hours</span><span class="ar">ساعة</span></span></div>
+        <p><span class="en">Completed 280 hours of hands-on and field training in the IT department of a government judicial body, across four areas: information technology, cybersecurity, computer science and artificial intelligence.</span><span class="ar">أكملت 280 ساعة من التدريب العملي والميداني في إدارة تقنية المعلومات بجهة قضائية حكومية، في أربعة مجالات: تقنية المعلومات، والأمن السيبراني، وعلوم الحاسب، والذكاء الاصطناعي.</span></p>
+        <div class="rgrid">
+          <div>
+            <h4><span class="en">What I worked on</span><span class="ar">ما عملت عليه</span></h4>
+            <ol class="del">
+              <li><b><span class="en">Cybersecurity and data protection</span><span class="ar">الأمن السيبراني وحماية البيانات</span></b><span class="en">Security protocols, data protection, security updates, network and system protection, and backup practices in a government environment.</span><span class="ar">بروتوكولات الأمن السيبراني، وحماية البيانات، وتحديثات الأمان، وحماية الشبكات والأنظمة، والنسخ الاحتياطي في بيئة حكومية.</span></li>
+              <li><b><span class="en">Infrastructure and cloud</span><span class="ar">البنية التحتية والسحابة</span></b><span class="en">Computer and server components, processors, cloud storage, remote administration and advanced maintenance.</span><span class="ar">مكونات الحاسب والخوادم والمعالجات، والتخزين السحابي، والتحكم عن بعد، والصيانة المتقدمة.</span></li>
+              <li><b><span class="en">Built an AI chatbot</span><span class="ar">بناء روبوت محادثة بالذكاء الاصطناعي</span></b><span class="en">Created an AI chatbot as part of the training's artificial intelligence track.</span><span class="ar">أنشأت روبوت محادثة بالذكاء الاصطناعي ضمن مسار الذكاء الاصطناعي في التدريب.</span></li>
+              <li><b><span class="en">Trained other trainees</span><span class="ar">تدريب المتدربين الآخرين</span></b><span class="en">Created explanations with Canva AI and explained them to fellow trainees.</span><span class="ar">أنشأت شروحات باستخدام Canva AI وشرحتها للمتدربين الآخرين.</span></li>
+            </ol>
+          </div>
+          <div>
+            <h4><span class="en">Skills developed</span><span class="ar">المهارات المكتسبة</span></h4>
+            <div class="gain">
+              <span><span class="en">Security protocols</span><span class="ar">بروتوكولات الأمن</span></span><span><span class="en">Data protection</span><span class="ar">حماية البيانات</span></span><span><span class="en">Network security</span><span class="ar">أمن الشبكات</span></span><span><span class="en">Backup and recovery</span><span class="ar">النسخ الاحتياطي والاستعادة</span></span><span><span class="en">Cloud storage</span><span class="ar">التخزين السحابي</span></span><span><span class="en">Server hardware</span><span class="ar">عتاد الخوادم</span></span><span><span class="en">Remote support</span><span class="ar">الدعم عن بعد</span></span><span><span class="en">AI chatbots</span><span class="ar">روبوتات المحادثة</span></span><span><span class="en">Training delivery</span><span class="ar">تقديم التدريب</span></span>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="role rv">
+      <div class="when">Aug 2026<br>— Oct 2026</div>
+      <span class="node" aria-hidden="true"></span>
+      <div class="rbody"><div class="rcard">
+        <div class="rtop"><div><h3>Associate Technical Consultant</h3><div class="org">Plat4mation · <span class="en">ServiceNow Delivery</span><span class="ar">تنفيذ مشاريع ServiceNow</span></div></div></div>
+        <p><span class="en">Joined the delivery team as a technical consultant on the ServiceNow platform. I configured and supported IT Service Management, Hardware and Software Asset Management and Strategic Portfolio Management on client instances, and earned the ServiceNow Certified System Administrator credential during this period.</span><span class="ar">انضممت لفريق التنفيذ كمستشارة تقنية على منصة ServiceNow. عملت على إعداد ودعم إدارة خدمات تقنية المعلومات، وإدارة الأصول التقنية والبرمجية، وإدارة المحافظ الاستراتيجية على بيئات العملاء، وحصلت خلال هذه الفترة على شهادة ServiceNow Certified System Administrator.</span></p>
+        <div class="rgrid">
+          <div>
+            <h4><span class="en">Key contributions</span><span class="ar">أبرز الإسهامات</span></h4>
+            <ol class="del">
+              <li><b><span class="en">IT Service Management</span><span class="ar">إدارة خدمات تقنية المعلومات</span></b><span class="en">Worked on core ITSM processes, including incident, request and change, with the configuration and testing that supports them.</span><span class="ar">عملت على الإجراءات الأساسية لإدارة الخدمات، ومنها الحوادث والطلبات والتغييرات، مع الإعدادات والاختبارات المرتبطة بها.</span></li>
+              <li><b><span class="en">Hardware and Software Asset Management</span><span class="ar">إدارة الأصول التقنية والبرمجية</span></b><span class="en">Built an executive asset dashboard in Platform Analytics, designed a self-service asset portal for employees, and deployed the work to the client instance through update sets.</span><span class="ar">بنيت لوحة معلومات تنفيذية للأصول على Platform Analytics، وصمّمت بوابة خدمة ذاتية للموظفين، ونقلت العمل إلى بيئة العميل عبر Update Sets.</span></li>
+              <li><b><span class="en">Implementation health review</span><span class="ar">مراجعة جودة التنفيذ</span></b><span class="en">Reviewed an existing asset implementation with read-only access to identify gaps, with every proposed change tested outside production first.</span><span class="ar">راجعت تنفيذاً قائماً لإدارة الأصول بصلاحية قراءة فقط لتحديد الفجوات، مع اختبار أي تعديل مقترح خارج بيئة الإنتاج أولاً.</span></li>
+              <li><b><span class="en">Client documentation</span><span class="ar">التوثيق للعملاء</span></b><span class="en">Wrote the user guide for managers and end users, structured around the real user journey in the system.</span><span class="ar">كتبت دليل الاستخدام للمدراء والمستخدمين، مرتّباً حسب رحلة المستخدم الفعلية في النظام.</span></li>
+            </ol>
+          </div>
+          <div>
+            <h4><span class="en">Skills developed</span><span class="ar">المهارات المكتسبة</span></h4>
+            <div class="gain">
+              <span>ITSM</span><span>Incident · Request · Change</span><span>HAM</span><span>SAM</span><span>SPM</span><span>CMDB</span><span>Service Catalog</span><span>Flow Designer</span><span>Platform Analytics</span><span>Service Portal</span><span>Update Sets</span><span><span class="en">Instance governance</span><span class="ar">حوكمة البيئات</span></span><span><span class="en">Client documentation</span><span class="ar">التوثيق للعملاء</span></span>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="promo rv">
+      <span class="pnode" aria-hidden="true">↑</span>
+      <div class="pt"><div><b><span class="en">Promotion</span><span class="ar">ترقية</span></b><small><span class="en">October 2026 · two months after joining</span><span class="ar">أكتوبر 2026 · بعد شهرين من الانضمام</span></small></div></div>
+    </div>
+
+    <div class="role now rv">
+      <div class="when">Oct 2026<br>— <span class="en">Present</span><span class="ar">الآن</span></div>
+      <span class="node" aria-hidden="true"></span>
+      <div class="rbody"><div class="rcard">
+        <div class="rtop"><div><h3>Associate Solutions Consultant</h3><div class="org">Plat4mation · <span class="en">Solution Consulting</span><span class="ar">استشارات الحلول</span></div></div><span class="rtag"><span class="en">Current</span><span class="ar">الحالي</span></span></div>
+        <p><span class="en">Part of the solution consulting team supporting presales for enterprise clients in Saudi Arabia. I take part in discovery sessions, translate requirements into ServiceNow solution designs, build proofs of concept, and prepare the technical sections of proposals and RFP responses.</span><span class="ar">ضمن فريق استشارات الحلول الداعم لمرحلة ما قبل البيع لعملاء من كبرى الجهات في المملكة. أشارك في جلسات تحليل الاحتياج، وأحوّل المتطلبات إلى تصميم حلول على ServiceNow، وأبني نماذج إثبات المفهوم، وأعدّ الأجزاء الفنية في العروض والردود على طلبات تقديم العروض.</span></p>
+        <div class="rgrid">
+          <div>
+            <h4><span class="en">Key contributions</span><span class="ar">أبرز الإسهامات</span></h4>
+            <ol class="del">
+              <li><b><span class="en">ITSM proposals and RFP responses</span><span class="ar">عروض إدارة الخدمات والردود على الطلبات</span></b><span class="en">Prepared technical proposals for ITSM modernisation and for moving from a legacy ITSM tool to ServiceNow ITSM, ITOM Discovery and App Engine.</span><span class="ar">أعددت عروضاً فنية لتحديث إدارة خدمات تقنية المعلومات، وللانتقال من أداة ITSM سابقة إلى ServiceNow ITSM وITOM Discovery وApp Engine.</span></li>
+              <li><b><span class="en">Fleet Management proof of concept</span><span class="ar">نموذج إثبات مفهوم لإدارة الأسطول</span></b><span class="en">Designed and built a custom scoped application with role-based personas covering the core fleet workflows, and demonstrated it in a competitive evaluation.</span><span class="ar">صمّمت وبنيت تطبيقاً مخصصاً بأدوار مستخدمين متعددة يغطي الإجراءات الأساسية لإدارة الأسطول، وعرضته ضمن تقييم تنافسي.</span></li>
+              <li><b><span class="en">Employee Service Center prototype</span><span class="ar">نموذج أولي لمركز خدمات الموظفين</span></b><span class="en">Built the prototype for an Employee Service Center redesign and prepared a platform assessment that pairs each finding with a recommended fix.</span><span class="ar">بنيت النموذج الأولي لإعادة تصميم مركز خدمات الموظفين، وأعددت تقييماً للمنصة يربط كل ملاحظة بالحل المقترح لها.</span></li>
+              <li><b><span class="en">Broader RFP work</span><span class="ar">طلبات عروض أخرى</span></b><span class="en">Contributed to technical responses covering B2B service capabilities and CRM transformation.</span><span class="ar">شاركت في إعداد الردود الفنية لطلبات تشمل قدرات خدمات قطاع الأعمال وتحول إدارة علاقات العملاء.</span></li>
+            </ol>
+          </div>
+          <div>
+            <h4><span class="en">Skills developed</span><span class="ar">المهارات المكتسبة</span></h4>
+            <div class="gain">
+              <span>ITSM</span><span>ITOM Discovery</span><span>App Engine</span><span>CSM</span><span>Employee Service Center</span><span><span class="en">Requirements discovery</span><span class="ar">تحليل الاحتياج</span></span><span><span class="en">Solution design</span><span class="ar">تصميم الحلول</span></span><span><span class="en">Proofs of concept</span><span class="ar">نماذج إثبات المفهوم</span></span><span><span class="en">RFP analysis</span><span class="ar">تحليل طلبات العروض</span></span><span><span class="en">Technical writing</span><span class="ar">الكتابة الفنية</span></span><span><span class="en">Client presentations</span><span class="ar">العرض على العملاء</span></span>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="s wrap" id="projects">
+  <div class="sh rv">
+    <div><div class="eyebrow"><span class="en">Independent projects</span><span class="ar">مشاريع مستقلة</span></div><h2 class="disp"><span class="en">Projects</span><span class="ar">المشاريع</span></h2></div>
+    <p><span class="en">Each project is published and can be tried online.</span><span class="ar">كل مشروع منشور ويمكن تجربته مباشرة.</span></p>
+  </div>
+  <div class="projects">
+    <div class="pj rv">
+      <div class="vis"><canvas data-art="net"></canvas><div class="glyph grad">تحقّق</div></div>
+      <div class="in">
+        <div class="meta"><span>Tahaqqaq</span><span><span class="en">Security · NLP</span><span class="ar">أمن · لغة</span></span></div>
+        <h3><span class="en">"Your Absher account will be suspended in 24 hours."</span><span class="ar">«سيتم إيقاف حسابك في أبشر خلال 24 ساعة»</span></h3>
+        <p><span class="en">Almost everyone in Saudi Arabia has received a message like this. Tahaqqaq reads the text, inspects the link and checks the sender, then explains in Arabic why a message is safe, suspicious or a scam. It works on the web, as a Chrome extension that warns before a risky link opens, and as a Telegram bot you forward messages to.</span><span class="ar">رسالة وصلت تقريباً كل شخص في المملكة. «تحقّق» يقرأ النص ويفحص الرابط ويتأكد من المرسل، ثم يشرح بالعربي لماذا الرسالة آمنة أو مشبوهة أو احتيالية. يعمل على الويب، وكإضافة لمتصفح كروم تنبّه قبل فتح الرابط الخطير، وكبوت على تيليجرام تحوّل له الرسالة.</span></p>
+        <div class="tags"><span class="tag">Machine learning</span><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Chrome extension</span><span class="tag">Telegram bot</span></div>
+      </div>
+      <div class="go"><a href="https://ff-019.github.io/tahaqqaq/" target="_blank" rel="noopener"><span class="en">Try it ↗</span><span class="ar">جرّبه ↗</span></a><a href="https://github.com/FF-019/tahaqqaq" target="_blank" rel="noopener"><span class="en">Code ↗</span><span class="ar">الكود ↗</span></a></div>
+    </div>
+    <div class="pj rv">
+      <div class="vis"><canvas data-art="grid"></canvas><div class="glyph grad">GRC</div></div>
+      <div class="in">
+        <div class="meta"><span>Security Policies Pack</span><span><span class="en">Governance</span><span class="ar">حوكمة</span></span></div>
+        <h3><span class="en">From policy on paper to evidence an auditor accepts</span><span class="ar">من سياسة على الورق إلى دليل يقبله المدقق</span></h3>
+        <p><span class="en">Four security policies whose 26 statements are traced to 88 requirements in NCA ECC, ISO 27001 and NIST CSF, with a working risk register, evidence tracker and access review.</span><span class="ar">أربع سياسات أمنية، بنودها الـ 26 مربوطة بـ 88 متطلباً في NCA ECC وISO 27001 وNIST CSF، مع سجل مخاطر ومتابعة للأدلة ومراجعة للصلاحيات.</span></p>
+        <div class="tags"><span class="tag">NCA ECC</span><span class="tag">ISO 27001</span><span class="tag">NIST CSF</span></div>
+      </div>
+      <div class="go"><a href="https://ff-019.github.io/security-policies-pack/" target="_blank" rel="noopener"><span class="en">Try it ↗</span><span class="ar">جرّبه ↗</span></a><a href="https://github.com/FF-019/security-policies-pack" target="_blank" rel="noopener"><span class="en">Code ↗</span><span class="ar">الكود ↗</span></a></div>
+    </div>
+    <div class="pj rv">
+      <div class="vis"><canvas data-art="pulse"></canvas><div class="glyph grad">اطمئن</div></div>
+      <div class="in">
+        <div class="meta"><span>Atma'en</span><span><span class="en">Graduation project</span><span class="ar">مشروع التخرج</span></span></div>
+        <h3><span class="en">The first minutes after a child swallows something harmful</span><span class="ar">الدقائق الأولى بعد أن يبتلع الطفل مادة ضارة</span></h3>
+        <p><span class="en">Parents identify the product by name, barcode or photo and get a clear next step: go to the emergency department, call the poison centre, or follow home-care guidance, with clear step-by-step first aid instructions.</span><span class="ar">يتعرّف الأهل على المنتج بالاسم أو الباركود أو الصورة، ويحصلون على الخطوة التالية بوضوح: التوجه للطوارئ، أو الاتصال بمركز السموم، أو اتباع إرشادات الرعاية المنزلية، مع خطوات إسعاف واضحة ومرتبة.</span></p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">FastAPI</span><span class="tag">React</span></div>
+      </div>
+      <div class="go"><a href="https://ff-019.github.io/atmaen/" target="_blank" rel="noopener"><span class="en">Try it ↗</span><span class="ar">جرّبه ↗</span></a><a href="https://github.com/FF-019/atmaen" target="_blank" rel="noopener"><span class="en">Code ↗</span><span class="ar">الكود ↗</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="s wrap" id="credentials">
+  <div class="sh rv">
+    <div><div class="eyebrow"><span class="en">Credentials</span><span class="ar">الشهادات</span></div><h2 class="disp"><span class="en">Certifications</span><span class="ar">الشهادات</span></h2></div>
+  </div>
+  <div class="intl">
+    <div class="badge rv"><span class="issuer">ServiceNow</span><h3>Certified System Administrator</h3><span class="code">CSA</span><span class="st"><span class="en">5 October 2026</span><span class="ar">5 أكتوبر 2026</span></span></div>
+    <div class="badge rv"><span class="issuer">CompTIA</span><h3>Security+ <span class="sm">SY0-701</span></h3><span class="code">S+</span><span class="st"><span class="en">14 February 2026</span><span class="ar">14 فبراير 2026</span></span></div>
+    <div class="badge rv"><span class="issuer">TestGorilla</span><h3><span class="en">IT Business Analyst · 99th percentile</span><span class="ar">محلل أعمال تقنية المعلومات · المئين 99</span></h3><span class="code">99</span><span class="st"><span class="en">August 2026</span><span class="ar">أغسطس 2026</span></span></div>
+  </div>
+  <div class="minor rv">
+    <div><small>Cisco Networking Academy</small><b>Networking Basics</b></div>
+    <div><small>freeCodeCamp</small><b>Machine Learning with Python</b></div>
+    <div><small><span class="en">Princess Nourah University</span><span class="ar">جامعة الأميرة نورة</span></small><b><span class="en">English Level 3 · A+ (49/50)</span><span class="ar">اللغة الإنجليزية المستوى 3 · A+ (49/50)</span></b></div>
+    <div class="prog"><small>ServiceNow</small><b><span class="en">Certified Application Developer · In preparation</span><span class="ar">Certified Application Developer · قيد التحضير</span></b></div>
+  </div>
+
+  <div class="acc rv">
+    <div class="acc-top">
+      <div>
+        <div class="eyebrow"><span class="en">Accredited training</span><span class="ar">التدريب المعتمد</span></div>
+        <h3 style="margin-top:14px"><span class="en">13 courses accredited by the Technical and Vocational Training Corporation</span><span class="ar">13 دورة معتمدة من المؤسسة العامة للتدريب التقني والمهني</span></h3>
+        <p><span class="en">Completed at Atwar Higher Training Academy. Each certificate carries a TVTC accreditation number and an electronic verification code. In addition, 120 training hours at Tafaseel Training Center.</span><span class="ar">من معهد أكاديمية أطوار العالي للتدريب، وكل شهادة تحمل رقم اعتماد ورمز تحقق إلكتروني. إضافة إلى 120 ساعة تدريبية في مركز تفاصيل للتدريب.</span></p>
+      </div>
+      <div class="hrs"><b data-n="340">340</b><span><span class="en">training hours</span><span class="ar">ساعة تدريبية</span></span></div>
+    </div>
+    <div class="flt" id="flt">
+      <button type="button" data-f="all" aria-pressed="true"><span class="en">All</span><span class="ar">الكل</span></button>
+      <button type="button" data-f="tech" aria-pressed="false"><span class="en">Technology</span><span class="ar">التقنية</span></button>
+      <button type="button" data-f="mgmt" aria-pressed="false"><span class="en">Management</span><span class="ar">الإدارة</span></button>
+      <button type="button" data-f="comm" aria-pressed="false"><span class="en">Communication</span><span class="ar">التواصل</span></button>
+    </div>
+    <div class="courses" id="courses"></div>
+  </div>
+
+  <div class="edu rv">
+    <div><div class="eyebrow"><span class="en">Education</span><span class="ar">التعليم</span></div><h3 style="margin-top:12px"><span class="en">BSc Information Technology · Information Security track</span><span class="ar">بكالوريوس تقنية المعلومات · مسار أمن المعلومات</span></h3><p><span class="en">Jazan University · GPA 4.78 / 5 · First-class honours</span><span class="ar">جامعة جازان · المعدل 4.78 من 5 · مرتبة الشرف الأولى</span></p></div>
+    <div class="y grad">2026</div>
+  </div>
+</section>
+
+<section class="s wrap" id="references">
+  <div class="sh rv">
+    <div><div class="eyebrow"><span class="en">Recommendations</span><span class="ar">التوصيات</span></div><h2 class="disp"><span class="en">From my professors</span><span class="ar">من أساتذتي</span></h2></div>
+    <p><span class="en">Four recommendation letters from faculty at the Department of Computer Science, College of Engineering and Computer Science, Jazan University. Full letters available on request.</span><span class="ar">أربعة خطابات توصية من أعضاء هيئة التدريس في قسم علوم الحاسب، كلية الهندسة وعلوم الحاسب بجامعة جازان. الخطابات كاملة متاحة عند الطلب.</span></p>
+  </div>
+  <div class="quotes">
+    <figure class="q rv"><blockquote><span class="en">“One of the most promising students in our department.”</span><span class="ar">«من أكثر الطالبات تميزاً وتبشيراً بالمستقبل في القسم.»</span></blockquote><figcaption><b>Dr. Mshabab Alrizah</b><span><span class="en">Assistant Professor · Cybersecurity track courses</span><span class="ar">أستاذ مساعد · مقررات مسار الأمن السيبراني</span></span></figcaption></figure>
+    <figure class="q rv"><blockquote><span class="en">“One of the most sincere, hardworking, and dedicated students of her batch.”</span><span class="ar">«من أكثر طالبات دفعتها إخلاصاً واجتهاداً والتزاماً.»</span></blockquote><figcaption><b>Dr. Poonam Bhargav</b><span><span class="en">Human-Computer Interaction · Rated exceptional in teamwork and independent work</span><span class="ar">مقرر التفاعل بين الإنسان والحاسب · تقييم «استثنائي» في العمل الجماعي والعمل المستقل</span></span></figcaption></figure>
+    <figure class="q rv"><blockquote><span class="en">“Among the top-performing students in her class, earning an A+ grade.”</span><span class="ar">«من أعلى الطالبات أداءً في الشعبة، وحصلت على تقدير A+.»</span></blockquote><figcaption><b>Najla Galam</b><span><span class="en">Lecturer · Algorithms and Data Structures · Grade A+</span><span class="ar">محاضرة · مقرر الخوارزميات وهياكل البيانات · تقدير A+</span></span></figcaption></figure>
+    <figure class="q rv"><blockquote><span class="en">“Her ability to grasp things conceptually and implement them practically is notable.”</span><span class="ar">«قدرتها على استيعاب المفاهيم وتطبيقها عملياً لافتة.»</span></blockquote><figcaption><b>Ayasha Siddiqua</b><span><span class="en">Lecturer · Taught her over four years · Rated exceptional in maturity and collaboration</span><span class="ar">محاضرة · درّستها على مدى أربع سنوات · تقييم «استثنائي» في النضج والتعاون</span></span></figcaption></figure>
+  </div>
+</section>
+
+<section class="contact wrap" id="contact">
+  <div class="eyebrow"><span class="en">Contact</span><span class="ar">التواصل</span></div>
+  <h2 class="disp" style="margin-top:20px"><span class="en">Get in touch</span><span class="ar">للتواصل</span></h2>
+  <div class="links">
+    <div class="lk"><small><span class="en">Email</span><span class="ar">البريد الإلكتروني</span></small><b id="mail">Fatima_Asiri1@outlook.sa</b><button class="copy" type="button" id="copy"><span class="en">Copy</span><span class="ar">نسخ</span></button></div>
+    <a class="lk" href="https://www.linkedin.com/search/results/people/?keywords=Fatima%20Asiri%20Plat4mation" target="_blank" rel="noopener"><small>LinkedIn</small><b>Fatima Asiri ↗</b></a>
+    <a class="lk" href="https://github.com/FF-019" target="_blank" rel="noopener"><small>GitHub</small><b>github.com/FF-019 ↗</b></a>
+  </div>
+</section>
+<footer><div class="wrap"><span>© 2026 Fatima Asiri</span><span><span class="en">Saudi Arabia</span><span class="ar">المملكة العربية السعودية</span></span></div></footer>
+
+<script>
+(function(){
+var root=document.documentElement;root.classList.add("js");
+var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* language */
+function setLang(l){root.lang=l;root.dir=l==="ar"?"rtl":"ltr";try{localStorage.setItem("fa.lang",l)}catch(e){};if(window.__field)window.__field.retarget()}
+var saved=null;try{saved=localStorage.getItem("fa.lang")}catch(e){}
+setLang(location.hash==="#ar"?"ar":(saved||"en"));
+document.getElementById("lang").addEventListener("click",function(){setLang(root.lang==="ar"?"en":"ar")});
+
+/* courses */
+var C=[
+ ["PMP: Professional Project Management","التدريب على إدارة المشاريع الاحترافية PMP",35,"mgmt",1],
+ ["Computer Skills for Office Work","مهارات استخدام الحاسب الآلي في الأعمال المكتبية",30,"tech"],
+ ["Human Resources Management","إدارة الموارد البشرية",20,"mgmt"],
+ ["Cybersecurity","الأمن السيبراني",15,"tech",1],
+ ["Fundamentals of Artificial Intelligence","أساسيات الذكاء الاصطناعي",15,"tech",1],
+ ["Technology Skills in the Workplace","مهارات التقنية في بيئة العمل",15,"tech"],
+ ["Electronic Archiving","الأرشفة الإلكترونية",15,"tech"],
+ ["Data Entry","مدخل البيانات",15,"tech"],
+ ["Executive Office Management","مهارات السكرتارية التنفيذية وإدارة المكاتب",15,"mgmt"],
+ ["Report Writing and Business Correspondence","مهارات كتابة التقارير والمراسلات الإدارية",15,"comm"],
+ ["Public Relations","العلاقات العامة",15,"comm"],
+ ["Building and Executing Initiatives","مهارات بناء المبادرات وتنفيذها",10,"mgmt"],
+ ["Communication and Interpersonal Skills","مهارات الاتصال والتعامل مع الآخرين",5,"comm"]];
+var box=document.getElementById("courses");
+function drawCourses(f){box.innerHTML=C.filter(function(c){return f==="all"||c[3]===f}).map(function(c){return '<div class="course'+(c[4]?' hl':'')+'"><span><span class="en">'+c[0]+'</span><span class="ar">'+c[1]+'</span></span><span class="bar"><i style="width:'+(c[2]/35*100)+'%"></i></span><em>'+c[2]+'h</em></div>'}).join("")}
+drawCourses("all");
+document.getElementById("flt").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;[].forEach.call(this.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===b)});drawCourses(b.dataset.f)});
+
+/* copy */
+document.getElementById("copy").addEventListener("click",function(){var b=this,t=document.getElementById("mail").textContent;
+ function ok(){b.querySelector(root.lang==="ar"?".ar":".en").textContent=root.lang==="ar"?"تم النسخ":"Copied"}
+ function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById("mail"));var s=getSelection();s.removeAllRanges();s.addRange(r)}
+ if(navigator.clipboard)navigator.clipboard.writeText(t).then(ok,sel);else sel()});
+
+/* progress */
+var pg=document.getElementById("prog");
+addEventListener("scroll",function(){var h=document.documentElement.scrollHeight-innerHeight;pg.style.width=(h>0?scrollY/h*100:0)+"%"},{passive:true});
+
+/* reveal + counters + manifesto words */
+function wordify(id){var p=document.getElementById(id);if(!p)return;p.innerHTML=p.textContent.split(" ").map(function(w){return '<span class="w">'+w+'</span>'}).join(" ")}
+wordify("mani");wordify("mani-ar");
+if("IntersectionObserver" in window&&!reduce){
+ var rv=[].slice.call(document.querySelectorAll(".rv")).filter(function(el){return el.getBoundingClientRect().top>innerHeight});
+ rv.forEach(function(el){el.classList.add("pre")});
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove("pre");io.unobserve(e.target)}})},{rootMargin:"0px 0px -8% 0px"});
+ rv.forEach(function(el){io.observe(el)});
+ var nums=[].slice.call(document.querySelectorAll("[data-n]"));
+ var no=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;no.unobserve(e.target);var el=e.target,n=+el.dataset.n,dd=+(el.dataset.d||0),t0=performance.now();
+  (function step(t){var k=Math.min(1,(t-t0)/1400);el.textContent=(n*(1-Math.pow(1-k,3))).toFixed(dd);if(k<1)requestAnimationFrame(step)})(t0)})},{threshold:.6});
+ nums.forEach(function(el){no.observe(el)});
+ function mani(){[].forEach.call(document.querySelectorAll(".manifesto p"),function(p){var r=p.getBoundingClientRect();var k=Math.max(0,Math.min(1,(innerHeight*.85-r.top)/(r.height+innerHeight*.35)));var ws=p.querySelectorAll(".w"),c=Math.round(ws.length*k);[].forEach.call(ws,function(w,i){w.classList.toggle("on",i<c)})})}
+ addEventListener("scroll",mani,{passive:true});mani();
+}else{[].forEach.call(document.querySelectorAll(".manifesto .w"),function(w){w.classList.add("on")})}
+
+/* spotlight on focus cards */
+[].forEach.call(document.querySelectorAll(".fcard"),function(c){c.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect();c.style.setProperty("--mx",(e.clientX-r.left)+"px");c.style.setProperty("--my",(e.clientY-r.top)+"px")})});
+
+/* hero particle field: points settle into her initials, scatter away from the pointer */
+var cv=document.getElementById("field"),ctx=cv.getContext("2d"),W=0,H=0,DPR=Math.min(devicePixelRatio||1,2),P=[],mouse={x:-9999,y:-9999};
+function targets(){var off=document.createElement("canvas"),o=off.getContext("2d");off.width=W;off.height=H;
+ var txt=root.lang==="ar"?"ف ع":"FA";var size=Math.min(W*(W<720?.62:.42),H*.78);
+ o.fillStyle="#fff";o.textAlign="center";o.textBaseline="middle";
+ o.font=(root.lang==="ar"?"800 ":"800 ")+size+"px "+(root.lang==="ar"?"Alexandria, sans-serif":"Archivo, sans-serif");
+ var cx=W<720?W*.5:(root.dir==="rtl"?W*.27:W*.73),cy=W<720?H*.3:H*.46;o.fillText(txt,cx,cy);
+ var d=o.getImageData(0,0,W,H).data,pts=[],step=W<720?7:8;
+ for(var y=0;y<H;y+=step)for(var x=0;x<W;x+=step){if(d[(y*W+x)*4+3]>128)pts.push([x,y])}
+ return pts}
+function build(){var r=cv.getBoundingClientRect();W=Math.max(1,Math.floor(r.width));H=Math.max(1,Math.floor(r.height));cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);
+ var t=targets(),n=Math.max(t.length,W<720?260:700);
+ while(P.length<n)P.push({x:Math.random()*W,y:Math.random()*H,vx:0,vy:0,tx:0,ty:0,free:false,h:Math.random()});
+ P.length=n;
+ for(var i=0;i<n;i++){var p=P[i];if(i<t.length){p.tx=t[i][0];p.ty=t[i][1];p.free=false}else{p.free=true;p.tx=Math.random()*W;p.ty=Math.random()*H}}
+ if(reduce){P.forEach(function(p){p.x=p.tx;p.y=p.ty});draw()}}
+function draw(){ctx.clearRect(0,0,W,H);
+ for(var i=0;i<P.length;i++){var p=P[i];var a=p.free?.22:.85;
+  ctx.fillStyle=p.h<.5?"rgba(168,230,255,"+a+")":(p.h<.85?"rgba(159,242,212,"+a+")":"rgba(255,200,180,"+a+")");
+  var s=p.free?1.1:1.6;ctx.fillRect(p.x,p.y,s,s)}}
+var t=0;
+function tick(){t+=.006;
+ for(var i=0;i<P.length;i++){var p=P[i];
+  var tx=p.tx,ty=p.ty;if(p.free){tx+=Math.sin(t*2+i)*30;ty+=Math.cos(t*1.7+i*.7)*30}
+  var dx=tx-p.x,dy=ty-p.y;p.vx+=dx*.012;p.vy+=dy*.012;
+  var mx=p.x-mouse.x,my=p.y-mouse.y,md=mx*mx+my*my;if(md<12000){var f=(12000-md)/12000*2.4;var l=Math.sqrt(md)||1;p.vx+=mx/l*f;p.vy+=my/l*f}
+  p.vx*=.86;p.vy*=.86;p.x+=p.vx;p.y+=p.vy}
+ draw();if(running)requestAnimationFrame(tick)}
+var running=false;
+function start(){if(reduce||running)return;running=true;requestAnimationFrame(tick)}
+function stop(){running=false}
+cv.parentElement.addEventListener("pointermove",function(e){var r=cv.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top});
+cv.parentElement.addEventListener("pointerleave",function(){mouse.x=mouse.y=-9999});
+var rz;addEventListener("resize",function(){clearTimeout(rz);rz=setTimeout(build,150)});
+new IntersectionObserver(function(es){es[0].isIntersecting?start():stop()}).observe(cv);
+window.__field={retarget:build};
+(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(function(){build();start()});
+build();
+
+/* project art */
+[].forEach.call(document.querySelectorAll("canvas[data-art]"),function(c){var g=c.getContext("2d"),k=c.dataset.art,w,h,tt=0,on=false;
+ function size(){var r=c.getBoundingClientRect();w=r.width;h=r.height;c.width=w*DPR;c.height=h*DPR;g.setTransform(DPR,0,0,DPR,0,0)}
+ var nodes=[];for(var i=0;i<26;i++)nodes.push({x:Math.random(),y:Math.random()*.7,s:Math.random()*.0015+.0005,a:Math.random()*6});
+ function paint(){g.clearRect(0,0,w,h);
+  if(k==="net"){var pts=nodes.map(function(n){return[(n.x+Math.sin(tt*n.s*900+n.a)*.03)*w,(n.y+Math.cos(tt*n.s*800+n.a)*.04)*h]});
+   for(var i=0;i<pts.length;i++)for(var j=i+1;j<pts.length;j++){var dx=pts[i][0]-pts[j][0],dy=pts[i][1]-pts[j][1],d=Math.sqrt(dx*dx+dy*dy);if(d<90){g.strokeStyle="rgba(168,230,255,"+(1-d/90)*.35+")";g.beginPath();g.moveTo(pts[i][0],pts[i][1]);g.lineTo(pts[j][0],pts[j][1]);g.stroke()}}
+   pts.forEach(function(p,i){g.fillStyle=i%7===0?"rgba(255,138,92,.95)":"rgba(159,242,212,.9)";g.beginPath();g.arc(p[0],p[1],i%7===0?3:2,0,7);g.fill()})}
+  else if(k==="grid"){var n=5,cw=Math.min(w,h*1.6)*.12,ox=w-cw*n-22,oy=18;
+   for(var r=0;r<n;r++)for(var q=0;q<n;q++){var s=(r+1)*(q+1),v=.5+.5*Math.sin(tt*3+r*.7+q*.9);var col=s>=15?"255,138,92":s>=8?"255,200,140":"159,242,212";g.fillStyle="rgba("+col+","+(.18+v*.5)+")";g.fillRect(ox+q*cw,oy+(n-1-r)*cw*.62,cw-4,cw*.62-4)}}
+  else{g.strokeStyle="rgba(168,230,255,.8)";g.lineWidth=1.6;g.beginPath();for(var x=0;x<=w;x+=2){var u=(x/w*4+tt*1.2)%1;var y=h*.42;if(u>.42&&u<.5)y-=Math.sin((u-.42)/.08*Math.PI)*h*.28;else if(u>.5&&u<.56)y+=Math.sin((u-.5)/.06*Math.PI)*h*.12;y+=Math.sin(x*.02+tt*4)*2;x===0?g.moveTo(x,y):g.lineTo(x,y)}g.stroke()}}
+ function loop(){tt+=.004;paint();if(on)requestAnimationFrame(loop)}
+ size();paint();addEventListener("resize",function(){size();paint()});
+ if(!reduce)new IntersectionObserver(function(es){var v=es[0].isIntersecting;if(v&&!on){on=true;requestAnimationFrame(loop)}else if(!v)on=false}).observe(c);
+});
+})();
+</script>
+
+</body>
+</html>
